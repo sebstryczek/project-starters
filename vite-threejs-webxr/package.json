@@ -1,0 +1,32 @@
+{
+  "name": "mirror-game-session-viewer",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run lint && npm run format && tsc && vite build",
+    "serve": "vite preview",
+    "clean": "npm run lint-fix && npm run format-fix",
+    "lint": "eslint \"**/*.{ts,tsx}\"",
+    "lint-fix": "eslint \"**/*.{ts,tsx}\" --fix",
+    "format": "prettier ./src --check",
+    "format-fix": "prettier ./src --write"
+  },
+  "devDependencies": {
+    "@types/three": "^0.128.0",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "@vitejs/plugin-legacy": "^1.4.3",
+    "shelljs": "^0.8.4",
+    "shx": "^0.3.3"
+  },
+  "dependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "less": "^4.1.1",
+    "prettier": "^2.3.0",
+    "three": "^0.128.0",
+    "typescript": "^4.2.3",
+    "vite": "^2.3.4"
+  }
+}
