@@ -7,5 +7,6 @@ https://github.com/sebstryczek/project-starters/tree/main/docker-setup__nginx-ph
 <br />
 
 ## Frontend project setup
-### https://vitejs.dev/ + https://www.typescriptlang.org/ + https://threejs.org/
+### Vite + TypeScript + Three.js
+(https://vitejs.dev/ + https://www.typescriptlang.org/ + https://threejs.org/)
 https://github.com/sebstryczek/project-starters/tree/main/frontend__vite-threejs-webxr
